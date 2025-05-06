@@ -1,1 +1,2 @@
-# youtube_videos
+# Project Description: Analysis of Youtube Trending Videos Dataset
+The primary goal of this project is to analyze factors influencing the popularity and trending status of videos on a global video-sharing platform. By exploring the provided dataset, this analysis aims to identify actionable insights that content creators, marketers, and analysts can leverage to optimize their strategies for video content creation and promotion.

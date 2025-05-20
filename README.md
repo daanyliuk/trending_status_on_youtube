@@ -132,6 +132,48 @@ This dashboard analyzes the **minimum threshold** for a YouTube channel to appea
 - Manual inclusion of countries (e.g., Ukraine) can provide additional insights or reveal outliers not captured in automated top lists.
 
 
+## 4. Weekly Trends in YouTube Video Performance by Category
+
+This section presents a breakdown of YouTube video activity across different categories and days of the week. The visualization includes:
+
+1. **Weekly Trends in Video Publications**
+2. **Weekly Trends in Average Video Views**
+3. **Weekly Trends in Average Video Likes**
+
+![Dashboard 1](https://github.com/user-attachments/assets/23b25b52-f346-4328-b85d-951df5954360)
+
+[View Interactive Dashboard on Tableau Public]([https://public.tableau.com/views/your-dashboard-link](https://public.tableau.com/views/WeeklyTrendsinVideoPublicationsAVGViewsandAVGLikesAcrossCategories/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+
+---
+
+### Key Insights
+
+#### 1. Video Publications
+- **Friday** sees the **highest number** of published videos, especially in **Entertainment**, **Gaming**, and **Music**.
+- **Sunday to Tuesday** shows relatively **low publishing activity**.
+- **Entertainment** dominates across all days in terms of publication volume.
+
+#### 2. Average Video Views
+- **Friday and Saturday** generate the **highest average views**, led by **Comedy**, **Entertainment**, and **How-to & Style**.
+- **Tuesday and Monday** are the weakest days for average views.
+- **Science & Technology** and **Travel & Events** also attract strong viewership during weekends.
+
+#### 3. Average Video Likes
+- **Thursday and Friday** receive the **most likes**, mainly in **Entertainment**, **Comedy**, and **Science & Technology**.
+- **Tuesday and Wednesday** are also strong in engagement.
+- **Sunday and Monday** see a drop in average likes across most categories.
+
+---
+
+### Summary
+
+- **Friday** is the most effective day for **publishing**, **viewership**, and **engagement**.
+- **Entertainment** consistently performs best across all metrics.
+- Creators may benefit from targeting **Thursdays to Saturdays** for uploads to maximize impact.
+
+---
+
+
 ---
 
 

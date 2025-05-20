@@ -40,3 +40,53 @@ group by time_category
 order by 2 desc
 ;
 
+-- #3 Minimum subscribers, views, and videos to get trending status
+with cte1 as(
+select channel_country
+	, min(channel_video_count) min_video_count
+	, min(channel_subscriber_count) min_subscriber_count
+	, min(channel_view_count) min_view_count
+from youtube_project.youtube_trending_videos_global_copy ytvgc 
+where channel_country !=''
+group by channel_country 
+)
+
+select channel_country
+	, min(min_video_count) as min_video_count
+	, min(min_subscriber_count) as min_subscriber_count
+	, min(min_view_count) as min_view_count
+from cte1
+group by channel_country
+having min_view_count != 0
+order by min_view_count
+;
+
+-- #4. The breakdown of YouTube video activity across different categories and days of the week
+with cte1 as(
+select *
+	, case 
+	strftime('%w',video_published_at)
+	when '0' then 'Sunday'
+	when '1' then 'Monday'
+	when '2' then 'Tuesday'
+	when '3' then 'Wednesday'
+	when '4' then 'Thursday'
+	when '5' then 'Friday'
+	when '6' then 'Saturday'
+	end as day_name
+from youtube_trending_videos_global ytvg
+where video_category_id is not null
+)
+
+select video_category_id
+	, day_name
+	, count(video_id) as videos_count
+	, round(avg(video_view_count),0) as avg_views
+	, round(avg(video_like_count),0) as avg_likes
+	, round(avg(video_comment_count),0) as avg_comments
+from cte1 
+group by video_category_id, day_name
+order by video_category_id, avg_views desc
+;
+
+

@@ -163,6 +163,11 @@ This section presents a breakdown of YouTube video activity across different cat
 - **Tuesday and Wednesday** are also strong in engagement.
 - **Sunday and Monday** see a drop in average likes across most categories.
 
+### 4. AVG days to get trending status
+- **News & Politics**, **Autos & Vehicles**, **Sports** have the shortest average time to trend compared to other categories.
+
+![Sheet 1](https://github.com/user-attachments/assets/e742a1da-b498-4033-b054-502afba71f9f)
+
 ---
 
 ### Summary

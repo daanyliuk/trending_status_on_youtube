@@ -1,3 +1,13 @@
+-- SQL Dialect: SQLite
+-- Стиль і синтаксис
+-- Використовуються ключові слова ROUND, AVG, COUNT, CASE WHEN, WITH (CTE), GROUP BY, ORDER BY, HAVING.
+
+
+
+
+
+
+
 -- #1 Top categories by the number of trending videos & their average views, likes, and comments.
 select 
 	video_category_id 

@@ -75,7 +75,7 @@
 
 ![Correlation Views vs Likes](https://github.com/user-attachments/assets/70bdc0d6-bda9-4cf5-af1c-66d31d8dd3b3)
 
-*(👉 Детальний інтерактивний графік у Tableau — **[додати лінк]**)*
+
 
 ---
 
@@ -103,7 +103,6 @@
 
 ![Sheet 2](https://github.com/user-attachments/assets/739625fb-d895-41b1-9fe5-98a9beedf296)
 
-*(👉 Інтерактивний дашборд у Tableau — **[додати лінк]**)*
 
 Кожна категорія включає середні значення переглядів, лайків та коментарів.
 
@@ -131,7 +130,7 @@
 
 ![Dashboard Thresholds](https://github.com/user-attachments/assets/cb2df80f-d5aa-4ea1-943a-6382e32eed9e)
 
-*(👉 Інтерактивний дашборд у Tableau — **[додати лінк]**)*
+👉 **[Переглянути інтерактивний дашборд на Tableau Public](https://public.tableau.com/views/MinimumsubscribersviewsandvideostogettrendingstatusonYoutube_/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ### Ключові результати
 

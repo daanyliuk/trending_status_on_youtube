@@ -164,7 +164,7 @@
 
 ![Weekly Trends](https://github.com/user-attachments/assets/23b25b52-f346-4328-b85d-951df5954360)
 
-👉 **[Переглянути інтерактивний дашборд на Tableau Public](https://public.tableau.com/views/WeeklyTrendsinVideoPublicationsAVGViewsandAVGLikesAcrossCategories/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)**
+👉 **[Переглянути інтерактивний дашборд на Tableau Public](https://public.tableau.com/views/WeeklyTrendsinVideoPublicationsAVGViewsandAVGLikesAcrossCategories/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ### Основні інсайти
 

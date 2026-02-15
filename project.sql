@@ -118,7 +118,7 @@ select
     , ROUND(AVG(channel_subscriber_count), 0) as avg_channel_subsc_count
     , ROUND(AVG(video_like_count), 0) as avg_like_count
     , ROUND(AVG(video_like_count * 1.0 / NULLIF(video_view_count, 0)), 2) as avg_like_view_ratio
-from youtube_project.youtube_trending_videos_global_copy ytvgc
+from youtube_trending_videos_global ytvg
 where channel_country IS NOT NULL
 group by channel_country
 having trending_video_count > 100
